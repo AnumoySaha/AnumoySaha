@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main()//main funtion
+{
+	int x,n,ans;//take integers
+	//TO enter the number
+	printf("enter the number:");
+	scanf("%d",&x);//scan the number
+	//to enter the power
+	printf("enter the power:");
+	scanf("%d",&n);//scan the power
+	while(n!=0 && x!=0)
+	{
+	
+	ans=pow(x,n);//pow function with header file math.h
+	
+	printf("The power of the number is=%d",ans);//to get the answer
+}
+	
+	getch();//getch for taking conio.h headerfile
+	
+	}
