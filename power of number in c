@@ -10,7 +10,7 @@ int main()//main funtion
 	//to enter the power
 	printf("enter the power:");
 	scanf("%d",&n);//scan the power
-	while(n!=0 && x!=0)
+	
 	{
 	
 	ans=pow(x,n);//pow function with header file math.h
